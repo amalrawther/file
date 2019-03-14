@@ -1,0 +1,320 @@
+[  9210.660] _XSERVTransSocketUNIXCreateListener: ...SocketCreateListener() failed
+[  9210.661] _XSERVTransMakeAllCOTSServerListeners: server already running
+[  9210.661] (--) Log file renamed from "/home/user/.local/share/xorg/Xorg.pid-4869.log" to "/home/user/.local/share/xorg/Xorg.1.log"
+[  9210.661] 
+X.Org X Server 1.18.3
+Release Date: 2016-04-04
+[  9210.661] X Protocol Version 11, Revision 0
+[  9210.661] Build Operating System: Linux 3.13.0-86-generic x86_64 Ubuntu
+[  9210.661] Current Operating System: Linux sys012 4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016 x86_64
+[  9210.661] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.4.0-31-generic root=UUID=621e2d81-3f2b-400a-a254-665b6266f639 ro quiet splash vt.handoff=7
+[  9210.661] Build Date: 18 May 2016  01:07:07AM
+[  9210.661] xorg-server 2:1.18.3-1ubuntu2.2 (For technical support please see http://www.ubuntu.com/support) 
+[  9210.661] Current version of pixman: 0.33.6
+[  9210.661] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[  9210.661] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[  9210.661] (==) Log file: "/home/user/.local/share/xorg/Xorg.1.log", Time: Fri Mar  8 22:24:59 2019
+[  9210.661] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[  9210.662] (==) No Layout section.  Using the first Screen section.
+[  9210.662] (==) No screen section available. Using defaults.
+[  9210.662] (**) |-->Screen "Default Screen Section" (0)
+[  9210.662] (**) |   |-->Monitor "<default monitor>"
+[  9210.662] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[  9210.662] (==) Automatically adding devices
+[  9210.662] (==) Automatically enabling devices
+[  9210.662] (==) Automatically adding GPU devices
+[  9210.662] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[  9210.662] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[  9210.662] 	Entry deleted from font path.
+[  9210.662] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[  9210.662] 	Entry deleted from font path.
+[  9210.662] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[  9210.662] 	Entry deleted from font path.
+[  9210.662] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[  9210.662] 	Entry deleted from font path.
+[  9210.662] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[  9210.662] 	Entry deleted from font path.
+[  9210.662] (==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	/usr/share/fonts/X11/Type1,
+	built-ins
+[  9210.662] (==) ModulePath set to "/usr/lib/x86_64-linux-gnu/xorg/extra-modules,/usr/lib/xorg/extra-modules,/usr/lib/xorg/modules"
+[  9210.662] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[  9210.662] (II) Loader magic: 0x55ccf9550da0
+[  9210.662] (II) Module ABI versions:
+[  9210.662] 	X.Org ANSI C Emulation: 0.4
+[  9210.662] 	X.Org Video Driver: 20.0
+[  9210.662] 	X.Org XInput driver : 22.1
+[  9210.662] 	X.Org Server Extension : 9.0
+[  9210.663] (++) using VT number 2
+
+[  9210.666] (II) systemd-logind: took control of session /org/freedesktop/login1/session/_36
+[  9210.667] (II) xfree86: Adding drm device (/dev/dri/card0)
+[  9210.670] (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 10 paused 0
+[  9210.673] (--) PCI:*(0:0:2:0) 8086:0112:105b:0d93 rev 9, Mem @ 0xf7800000/4194304, 0xe0000000/268435456, I/O @ 0x0000f000/64
+[  9210.673] (II) LoadModule: "glx"
+[  9210.673] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[  9210.675] (II) Module glx: vendor="X.Org Foundation"
+[  9210.675] 	compiled for 1.18.3, module version = 1.0.0
+[  9210.675] 	ABI class: X.Org Server Extension, version 9.0
+[  9210.675] (==) AIGLX enabled
+[  9210.675] (==) Matched intel as autoconfigured driver 0
+[  9210.675] (==) Matched intel as autoconfigured driver 1
+[  9210.675] (==) Matched modesetting as autoconfigured driver 2
+[  9210.675] (==) Matched fbdev as autoconfigured driver 3
+[  9210.675] (==) Matched vesa as autoconfigured driver 4
+[  9210.675] (==) Assigned the driver to the xf86ConfigLayout
+[  9210.675] (II) LoadModule: "intel"
+[  9210.675] (II) Loading /usr/lib/xorg/modules/drivers/intel_drv.so
+[  9210.675] (II) Module intel: vendor="X.Org Foundation"
+[  9210.675] 	compiled for 1.18.1, module version = 2.99.917
+[  9210.676] 	Module class: X.Org Video Driver
+[  9210.676] 	ABI class: X.Org Video Driver, version 20.0
+[  9210.676] (II) LoadModule: "modesetting"
+[  9210.676] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[  9210.676] (II) Module modesetting: vendor="X.Org Foundation"
+[  9210.676] 	compiled for 1.18.3, module version = 1.18.3
+[  9210.676] 	Module class: X.Org Video Driver
+[  9210.676] 	ABI class: X.Org Video Driver, version 20.0
+[  9210.676] (II) LoadModule: "fbdev"
+[  9210.676] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[  9210.676] (II) Module fbdev: vendor="X.Org Foundation"
+[  9210.676] 	compiled for 1.18.1, module version = 0.4.4
+[  9210.676] 	Module class: X.Org Video Driver
+[  9210.676] 	ABI class: X.Org Video Driver, version 20.0
+[  9210.676] (II) LoadModule: "vesa"
+[  9210.676] (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[  9210.676] (II) Module vesa: vendor="X.Org Foundation"
+[  9210.676] 	compiled for 1.18.1, module version = 2.3.4
+[  9210.676] 	Module class: X.Org Video Driver
+[  9210.676] 	ABI class: X.Org Video Driver, version 20.0
+[  9210.676] (II) intel: Driver for Intel(R) Integrated Graphics Chipsets:
+	i810, i810-dc100, i810e, i815, i830M, 845G, 854, 852GM/855GM, 865G,
+	915G, E7221 (i915), 915GM, 945G, 945GM, 945GME, Pineview GM,
+	Pineview G, 965G, G35, 965Q, 946GZ, 965GM, 965GME/GLE, G33, Q35, Q33,
+	GM45, 4 Series, G45/G43, Q45/Q43, G41, B43
+[  9210.677] (II) intel: Driver for Intel(R) HD Graphics: 2000-6000
+[  9210.677] (II) intel: Driver for Intel(R) Iris(TM) Graphics: 5100, 6100
+[  9210.677] (II) intel: Driver for Intel(R) Iris(TM) Pro Graphics: 5200, 6200, P6300
+[  9210.677] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[  9210.677] (II) FBDEV: driver for framebuffer: fbdev
+[  9210.677] (II) VESA: driver for VESA chipsets: vesa
+[  9210.677] xf86EnableIOPorts: failed to set IOPL for I/O (Operation not permitted)
+[  9210.677] (II) intel(0): Using Kernel Mode Setting driver: i915, version 1.6.0 20151010
+[  9210.677] (II) intel(0): SNA compiled: xserver-xorg-video-intel 2:2.99.917+git20160325-1ubuntu1 (Timo Aaltonen <tjaalton@debian.org>)
+[  9210.677] (II) intel(0): SNA compiled for use with valgrind
+[  9210.677] (WW) Falling back to old probe method for modesetting
+[  9210.678] (WW) Falling back to old probe method for fbdev
+[  9210.678] (II) Loading sub module "fbdevhw"
+[  9210.678] (II) LoadModule: "fbdevhw"
+[  9210.678] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[  9210.678] (II) Module fbdevhw: vendor="X.Org Foundation"
+[  9210.678] 	compiled for 1.18.3, module version = 0.0.2
+[  9210.678] 	ABI class: X.Org Video Driver, version 20.0
+[  9210.678] (EE) open /dev/fb0: Permission denied
+[  9210.678] (WW) Falling back to old probe method for vesa
+[  9210.678] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[  9210.678] (--) intel(0): Integrated Graphics Chipset: Intel(R) HD Graphics 3000
+[  9210.678] (--) intel(0): CPU: x86-64, sse2, sse3, ssse3, sse4.1, sse4.2, avx; using a maximum of 2 threads
+[  9210.678] (II) intel(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[  9210.678] (==) intel(0): Depth 24, (--) framebuffer bpp 32
+[  9210.678] (==) intel(0): RGB weight 888
+[  9210.678] (==) intel(0): Default visual is TrueColor
+[  9210.679] (II) intel(0): Output VGA1 has no monitor section
+[  9210.679] (II) intel(0): Enabled output VGA1
+[  9210.679] (--) intel(0): Using a maximum size of 256x256 for hardware cursors
+[  9210.679] (II) intel(0): Output VIRTUAL1 has no monitor section
+[  9210.679] (II) intel(0): Enabled output VIRTUAL1
+[  9210.679] (--) intel(0): Output VGA1 using initial mode 1366x768 on pipe 0
+[  9210.679] (==) intel(0): TearFree disabled
+[  9210.679] (==) intel(0): DPI set to (96, 96)
+[  9210.679] (II) Loading sub module "dri2"
+[  9210.679] (II) LoadModule: "dri2"
+[  9210.679] (II) Module "dri2" already built-in
+[  9210.679] (II) Loading sub module "present"
+[  9210.679] (II) LoadModule: "present"
+[  9210.679] (II) Module "present" already built-in
+[  9210.679] (II) UnloadModule: "modesetting"
+[  9210.679] (II) Unloading modesetting
+[  9210.679] (II) UnloadModule: "fbdev"
+[  9210.679] (II) Unloading fbdev
+[  9210.679] (II) UnloadSubModule: "fbdevhw"
+[  9210.679] (II) Unloading fbdevhw
+[  9210.679] (II) UnloadModule: "vesa"
+[  9210.679] (II) Unloading vesa
+[  9210.679] (==) Depth 24 pixmap format is 32 bpp
+[  9210.679] (II) intel(0): SNA initialized with Sandybridge (gen6, gt2) backend
+[  9210.679] (==) intel(0): Backing store enabled
+[  9210.679] (==) intel(0): Silken mouse enabled
+[  9210.680] (II) intel(0): HW Cursor enabled
+[  9210.680] (II) intel(0): RandR 1.2 enabled, ignore the following RandR disabled message.
+[  9210.680] (==) intel(0): DPMS enabled
+[  9210.680] (==) intel(0): Display hotplug detection enabled
+[  9210.680] (II) intel(0): [DRI2] Setup complete
+[  9210.680] (II) intel(0): [DRI2]   DRI driver: i965
+[  9210.680] (II) intel(0): [DRI2]   VDPAU driver: va_gl
+[  9210.680] (II) intel(0): direct rendering: DRI2 enabled
+[  9210.680] (II) intel(0): hardware support for Present enabled
+[  9210.680] (--) RandR disabled
+[  9210.686] (II) SELinux: Disabled on system
+[  9210.694] (II) AIGLX: enabled GLX_MESA_copy_sub_buffer
+[  9210.694] (II) AIGLX: enabled GLX_ARB_create_context
+[  9210.694] (II) AIGLX: enabled GLX_ARB_create_context_profile
+[  9210.694] (II) AIGLX: enabled GLX_EXT_create_context_es{,2}_profile
+[  9210.694] (II) AIGLX: enabled GLX_INTEL_swap_event
+[  9210.694] (II) AIGLX: enabled GLX_SGI_swap_control and GLX_MESA_swap_control
+[  9210.694] (II) AIGLX: enabled GLX_EXT_framebuffer_sRGB
+[  9210.694] (II) AIGLX: enabled GLX_ARB_fbconfig_float
+[  9210.694] (II) AIGLX: enabled GLX_EXT_fbconfig_packed_float
+[  9210.694] (II) AIGLX: GLX_EXT_texture_from_pixmap backed by buffer objects
+[  9210.694] (II) AIGLX: enabled GLX_ARB_create_context_robustness
+[  9210.694] (II) AIGLX: Loaded and initialized i965
+[  9210.694] (II) GLX: Initialized DRI2 GL provider for screen 0
+[  9210.696] (II) intel(0): switch to mode 1366x768@60.0 on VGA1 using pipe 0, position (0, 0), rotation normal, reflection none
+[  9210.696] (II) intel(0): Setting screen physical size to 361 x 203
+[  9210.725] (II) config/udev: Adding input device Power Button (/dev/input/event1)
+[  9210.725] (**) Power Button: Applying InputClass "evdev keyboard catchall"
+[  9210.725] (II) LoadModule: "evdev"
+[  9210.725] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[  9210.725] (II) Module evdev: vendor="X.Org Foundation"
+[  9210.725] 	compiled for 1.18.1, module version = 2.10.1
+[  9210.725] 	Module class: X.Org XInput Driver
+[  9210.725] 	ABI class: X.Org XInput driver, version 22.1
+[  9210.726] (II) systemd-logind: got fd for /dev/input/event1 13:65 fd 15 paused 0
+[  9210.726] (II) Using input driver 'evdev' for 'Power Button'
+[  9210.726] (**) Power Button: always reports core events
+[  9210.726] (**) evdev: Power Button: Device: "/dev/input/event1"
+[  9210.726] (--) evdev: Power Button: Vendor 0 Product 0x1
+[  9210.726] (--) evdev: Power Button: Found keys
+[  9210.726] (II) evdev: Power Button: Configuring as keyboard
+[  9210.726] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input1/event1"
+[  9210.726] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[  9210.726] (**) Option "xkb_rules" "evdev"
+[  9210.726] (**) Option "xkb_model" "pc105"
+[  9210.726] (**) Option "xkb_layout" "us"
+[  9210.726] (II) config/udev: Adding input device Video Bus (/dev/input/event3)
+[  9210.726] (**) Video Bus: Applying InputClass "evdev keyboard catchall"
+[  9210.727] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 16 paused 0
+[  9210.727] (II) Using input driver 'evdev' for 'Video Bus'
+[  9210.727] (**) Video Bus: always reports core events
+[  9210.727] (**) evdev: Video Bus: Device: "/dev/input/event3"
+[  9210.727] (--) evdev: Video Bus: Vendor 0 Product 0x6
+[  9210.727] (--) evdev: Video Bus: Found keys
+[  9210.727] (II) evdev: Video Bus: Configuring as keyboard
+[  9210.727] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input3/event3"
+[  9210.727] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 7)
+[  9210.727] (**) Option "xkb_rules" "evdev"
+[  9210.727] (**) Option "xkb_model" "pc105"
+[  9210.727] (**) Option "xkb_layout" "us"
+[  9210.727] (II) config/udev: Adding input device Power Button (/dev/input/event0)
+[  9210.727] (**) Power Button: Applying InputClass "evdev keyboard catchall"
+[  9210.728] (II) systemd-logind: got fd for /dev/input/event0 13:64 fd 17 paused 0
+[  9210.728] (II) Using input driver 'evdev' for 'Power Button'
+[  9210.728] (**) Power Button: always reports core events
+[  9210.728] (**) evdev: Power Button: Device: "/dev/input/event0"
+[  9210.728] (--) evdev: Power Button: Vendor 0 Product 0x1
+[  9210.728] (--) evdev: Power Button: Found keys
+[  9210.728] (II) evdev: Power Button: Configuring as keyboard
+[  9210.728] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0/event0"
+[  9210.728] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 8)
+[  9210.728] (**) Option "xkb_rules" "evdev"
+[  9210.728] (**) Option "xkb_model" "pc105"
+[  9210.728] (**) Option "xkb_layout" "us"
+[  9210.729] (II) config/udev: Adding input device PixArt USB Optical Mouse (/dev/input/event4)
+[  9210.729] (**) PixArt USB Optical Mouse: Applying InputClass "evdev pointer catchall"
+[  9210.729] (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 18 paused 0
+[  9210.729] (II) Using input driver 'evdev' for 'PixArt USB Optical Mouse'
+[  9210.729] (**) PixArt USB Optical Mouse: always reports core events
+[  9210.729] (**) evdev: PixArt USB Optical Mouse: Device: "/dev/input/event4"
+[  9210.729] (--) evdev: PixArt USB Optical Mouse: Vendor 0x93a Product 0x2510
+[  9210.729] (--) evdev: PixArt USB Optical Mouse: Found 3 mouse buttons
+[  9210.729] (--) evdev: PixArt USB Optical Mouse: Found scroll wheel(s)
+[  9210.729] (--) evdev: PixArt USB Optical Mouse: Found relative axes
+[  9210.729] (--) evdev: PixArt USB Optical Mouse: Found x and y relative axes
+[  9210.729] (II) evdev: PixArt USB Optical Mouse: Configuring as mouse
+[  9210.729] (II) evdev: PixArt USB Optical Mouse: Adding scrollwheel support
+[  9210.729] (**) evdev: PixArt USB Optical Mouse: YAxisMapping: buttons 4 and 5
+[  9210.729] (**) evdev: PixArt USB Optical Mouse: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[  9210.729] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1.4/1-1.4:1.0/0003:093A:2510.0001/input/input4/event4"
+[  9210.729] (II) XINPUT: Adding extended input device "PixArt USB Optical Mouse" (type: MOUSE, id 9)
+[  9210.729] (II) evdev: PixArt USB Optical Mouse: initialized for relative axes.
+[  9210.730] (**) PixArt USB Optical Mouse: (accel) keeping acceleration scheme 1
+[  9210.730] (**) PixArt USB Optical Mouse: (accel) acceleration profile 0
+[  9210.730] (**) PixArt USB Optical Mouse: (accel) acceleration factor: 2.000
+[  9210.730] (**) PixArt USB Optical Mouse: (accel) acceleration threshold: 4
+[  9210.730] (II) config/udev: Adding input device PixArt USB Optical Mouse (/dev/input/mouse0)
+[  9210.730] (II) No input driver specified, ignoring this device.
+[  9210.730] (II) This device may have been added with another device file.
+[  9210.730] (II) config/udev: Adding input device HDA Intel PCH Front Mic (/dev/input/event5)
+[  9210.730] (II) No input driver specified, ignoring this device.
+[  9210.730] (II) This device may have been added with another device file.
+[  9210.730] (II) config/udev: Adding input device HDA Intel PCH Rear Mic (/dev/input/event6)
+[  9210.730] (II) No input driver specified, ignoring this device.
+[  9210.730] (II) This device may have been added with another device file.
+[  9210.731] (II) config/udev: Adding input device HDA Intel PCH Line (/dev/input/event7)
+[  9210.731] (II) No input driver specified, ignoring this device.
+[  9210.731] (II) This device may have been added with another device file.
+[  9210.731] (II) config/udev: Adding input device HDA Intel PCH Line Out (/dev/input/event8)
+[  9210.731] (II) No input driver specified, ignoring this device.
+[  9210.731] (II) This device may have been added with another device file.
+[  9210.731] (II) config/udev: Adding input device HDA Intel PCH Front Headphone (/dev/input/event9)
+[  9210.731] (II) No input driver specified, ignoring this device.
+[  9210.731] (II) This device may have been added with another device file.
+[  9210.732] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event2)
+[  9210.732] (**) AT Translated Set 2 keyboard: Applying InputClass "evdev keyboard catchall"
+[  9210.732] (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 19 paused 0
+[  9210.732] (II) Using input driver 'evdev' for 'AT Translated Set 2 keyboard'
+[  9210.732] (**) AT Translated Set 2 keyboard: always reports core events
+[  9210.732] (**) evdev: AT Translated Set 2 keyboard: Device: "/dev/input/event2"
+[  9210.732] (--) evdev: AT Translated Set 2 keyboard: Vendor 0x1 Product 0x1
+[  9210.732] (--) evdev: AT Translated Set 2 keyboard: Found keys
+[  9210.732] (II) evdev: AT Translated Set 2 keyboard: Configuring as keyboard
+[  9210.732] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input2/event2"
+[  9210.732] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 10)
+[  9210.732] (**) Option "xkb_rules" "evdev"
+[  9210.732] (**) Option "xkb_model" "pc105"
+[  9210.732] (**) Option "xkb_layout" "us"
+[  9211.551] (II) intel(0): EDID vendor "WIP", prod id 49536
+[  9211.551] (II) intel(0): Using EDID range info for horizontal sync
+[  9211.551] (II) intel(0): Using EDID range info for vertical refresh
+[  9211.552] (II) intel(0): Printing DDC gathered Modelines:
+[  9211.552] (II) intel(0): Modeline "1366x768"x0.0   85.50  1366 1436 1579 1792  768 771 774 798 +hsync +vsync (47.7 kHz eP)
+[  9211.552] (II) intel(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[  9211.552] (II) intel(0): Modeline "800x600"x0.0   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz e)
+[  9211.553] (II) intel(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[  9211.553] (II) intel(0): Modeline "640x480"x0.0   31.50  640 664 704 832  480 489 492 520 -hsync -vsync (37.9 kHz e)
+[  9211.553] (II) intel(0): Modeline "640x480"x0.0   30.24  640 704 768 864  480 483 486 525 -hsync -vsync (35.0 kHz e)
+[  9211.553] (II) intel(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[  9211.553] (II) intel(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[  9211.553] (II) intel(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[  9211.553] (II) intel(0): Modeline "1024x768"x0.0   75.00  1024 1048 1184 1328  768 771 777 806 -hsync -vsync (56.5 kHz e)
+[  9211.553] (II) intel(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[  9211.553] (II) intel(0): Modeline "832x624"x0.0   57.28  832 864 928 1152  624 625 628 667 -hsync -vsync (49.7 kHz e)
+[  9211.553] (II) intel(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[  9211.553] (II) intel(0): Modeline "800x600"x0.0   50.00  800 856 976 1040  600 637 643 666 +hsync +vsync (48.1 kHz e)
+[  9211.553] (II) intel(0): Modeline "1280x720"x60.0   74.48  1280 1336 1472 1664  720 721 724 746 -hsync +vsync (44.8 kHz e)
+[  9855.903] (II) evdev: AT Translated Set 2 keyboard: Close
+[  9855.903] (II) UnloadModule: "evdev"
+[  9855.903] (II) systemd-logind: releasing fd for 13:66
+[  9856.304] (II) evdev: PixArt USB Optical Mouse: Close
+[  9856.304] (II) UnloadModule: "evdev"
+[  9856.304] (II) systemd-logind: releasing fd for 13:68
+[  9856.344] (II) evdev: Power Button: Close
+[  9856.344] (II) UnloadModule: "evdev"
+[  9856.344] (II) systemd-logind: releasing fd for 13:64
+[  9856.360] (II) evdev: Video Bus: Close
+[  9856.360] (II) UnloadModule: "evdev"
+[  9856.360] (II) systemd-logind: releasing fd for 13:67
+[  9856.384] (II) evdev: Power Button: Close
+[  9856.384] (II) UnloadModule: "evdev"
+[  9856.384] (II) systemd-logind: releasing fd for 13:65
+[  9856.427] (WW) xf86CloseConsole: KDSETMODE failed: Input/output error
+[  9856.428] (WW) xf86CloseConsole: VT_GETMODE failed: Input/output error
+[  9856.428] (WW) xf86CloseConsole: VT_ACTIVATE failed: Input/output error
+[  9856.463] (II) Server terminated successfully (0). Closing log file.

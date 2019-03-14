@@ -1,0 +1,63 @@
+#include<stdio.h>
+int sort(int a[10],int b);
+void main()
+{
+	int n,i,a[10],temp;
+	printf ("Enter the number of array\n");
+	scanf("%d",&n);
+	printf("Enter the elements of array\n");
+	for(i=0;i<n;i++)
+	{
+		scanf("%d",&a[i]);
+	}
+	printf("The given array is:\n");
+	for(i=0;i<n;i++)
+	{
+		printf("%d\n",a[i]);
+	}
+	for(int i=0;i<n;i++)
+		{
+			for(int j=0;j<(n-i-1);j++)
+			{
+				if(a[j]>a[j+1])
+				{
+					temp=a[j];
+					a[j]=a[j+1];
+					a[j+1]=temp;
+				}
+			}
+			printf("\nPass: %d\n",i+1);
+			for(int k=0;k<n;k++)
+			printf("%d\t",a[k]);
+		}
+		printf("\nsorted array\n");
+		for(i=0;i<n;i++)
+		{
+			printf("%d\t",a[i]);
+		}
+}
+
+
+
+//OUTPUT
+
+
+Enter the number of array
+3
+Enter the elements of array
+32
+78
+19
+The given array is:
+32
+78
+19
+
+Pass: 1
+32	19	78	
+Pass: 2
+19	32	78	
+Pass: 3
+19	32	78	
+sorted array
+19	32	78	

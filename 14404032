@@ -1,0 +1,39 @@
+
+
+#include<stdio.h>
+#include<string.h>
+char s[100];
+char d[15][100];
+char c[15][100]
+
+
+void main()
+{
+int a,i,j,l,z,m,w;
+char ck;
+char sd;
+
+clrscr();
+text color(2);
+printf("operator precedence table\n");
+
+
+printf("Enter the input string");
+scanf("%s",&st);
+l=strlen(st);
+st[l]='$';
+
+
+
+void disp()
+{
+for (i=0;ltop;i++)
+{|
+
+
+
+void push()
+
+
+
+void insert()
